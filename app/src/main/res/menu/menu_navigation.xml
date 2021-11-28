@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/hop_thu"
+    android:title="@string/tat_ca_hop_thu_den"
+    android:icon="@drawable/ic_hop_thu"
+    android:iconTint="@color/text_color"/>
+
+        <item android:title="Chính"
+            android:icon="@drawable/ic_chinh"
+            android:iconTint="@color/text_color"/>
+        <item android:title="Mạng xã hội"
+            android:icon="@drawable/ic_mang_xa_hoi"/>
+
+    <item android:title="Tất cả nhãn">
+        <menu>
+          <item android:title="Có gắn dấu sao"
+              android:icon="@drawable/ic_baseline_star_border"/>
+            <item android:title="Đã tạm ẩn"
+                android:icon="@drawable/ic_da_tam_an"/>
+            <item android:title="Quan trọng"
+                android:icon="@drawable/ic_quang_trong_1"/>
+            <item android:title="Đã gửi"
+                android:icon="@drawable/ic_da_gui"/>
+            <item android:title="Thư nháp"
+                android:icon="@drawable/ic_thu_nhap"/>
+            <item android:title="Thùng rác"
+                android:icon="@drawable/ic_baseline_delete"/>
+
+        </menu>
+    </item>
+    <item android:title="Các ứng dụng của Google">
+        <menu>
+            <item android:title="Lịch"
+                android:icon="@drawable/ic_lich"
+                android:iconTint="@color/text_color"/>
+            <item android:title="Danh ba"
+                android:icon="@drawable/ic_person"/>
+        </menu>
+    </item>
+    
+</menu>
